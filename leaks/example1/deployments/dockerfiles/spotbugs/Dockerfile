@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:22-ea-19
 
 RUN apk update && apk upgrade \
 	&& apk add --no-cache curl tar bash wget unzip openssh-client \
